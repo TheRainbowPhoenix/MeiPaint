@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="auto_backup_interval_entry">
+        <item>@string/disable_auto_backup</item>
+        <item>@string/every_5_minutes</item>
+        <item>@string/every_10_minutes</item>
+        <item>@string/every_15_minutes</item>
+    </string-array>
+    <string-array name="auto_backup_interval_entry_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="material_size">
+        <item>@string/standard</item>
+        <item>@string/for_printing</item>
+    </string-array>
+    <integer-array name="speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="spinner_blend_values">
+        <item>@string/normal</item>
+        <item>@string/multiply</item>
+        <item>@string/add_light</item>
+        <item>@string/blend_div</item>
+        <item>@string/overlay</item>
+        <item>@string/screen</item>
+        <item>@string/lighten</item>
+        <item>@string/darken</item>
+        <item>@string/difference</item>
+        <item>@string/dodge</item>
+        <item>@string/burn</item>
+        <item>@string/blend_soft_light</item>
+        <item>@string/blend_hard_light</item>
+        <item>@string/blend_hue</item>
+        <item>@string/blend_saturation</item>
+        <item>@string/blend_color</item>
+        <item>@string/blend_Luminance</item>
+        <item>@string/through</item>
+    </string-array>
+    <string-array name="spinner_bucket_target_values">
+        <item>@string/canvas</item>
+        <item>@string/layer</item>
+    </string-array>
+    <string-array name="spinner_comic_cloud_paper_size_values">
+        <item>@string/comic_paper_size_web</item>
+        <item>@string/comic_paper_size_web_high</item>
+        <item>@string/comic_paper_size_a5_color</item>
+        <item>@string/comic_paper_size_a5_gray</item>
+        <item>@string/comic_paper_size_b5_color</item>
+        <item>@string/comic_paper_size_b5_gray</item>
+        <item>@string/comic_paper_size_b4_color</item>
+        <item>@string/comic_paper_size_b4_gray</item>
+        <item>@string/comic_paper_size_us_comic_color</item>
+        <item>@string/comic_paper_size_us_comic_gray</item>
+    </string-array>
+    <string-array name="spinner_comic_cover_type">
+        <item>@string/cover</item>
+        <item>@string/cover1</item>
+        <item>@string/cover2</item>
+        <item>@string/cover3</item>
+        <item>@string/cover4</item>
+        <item>@string/cover14</item>
+        <item>@string/cover23</item>
+        <item>@string/spine</item>
+    </string-array>
+    <string-array name="spinner_comic_guide_setting_values">
+        <item>@string/comic_paper_size_a5</item>
+        <item>@string/comic_paper_size_b5</item>
+        <item>@string/comic_paper_size_b4</item>
+        <item>@string/comic_paper_size_us_comic</item>
+    </string-array>
+    <string-array name="spinner_comic_item_type">
+        <item>@string/page</item>
+        <item>@string/cover</item>
+        <item>@string/cover1</item>
+        <item>@string/cover2</item>
+        <item>@string/cover3</item>
+        <item>@string/cover4</item>
+        <item>@string/cover14</item>
+        <item>@string/cover23</item>
+        <item>@string/spine</item>
+        <item>@string/other</item>
+    </string-array>
+    <string-array name="spinner_comic_paper_size_values">
+        <item>@string/comic_paper_size_web</item>
+        <item>@string/comic_paper_size_web_high</item>
+        <item>@string/comic_paper_size_a5_color</item>
+        <item>@string/comic_paper_size_a5_gray</item>
+        <item>@string/comic_paper_size_b5_color</item>
+        <item>@string/comic_paper_size_b5_gray</item>
+        <item>@string/comic_paper_size_b4_color</item>
+        <item>@string/comic_paper_size_b4_gray</item>
+        <item>@string/comic_paper_size_4koma_no_title</item>
+        <item>@string/comic_paper_size_4koma_add_title</item>
+        <item>@string/comic_paper_size_us_comic_color</item>
+        <item>@string/comic_paper_size_us_comic_gray</item>
+    </string-array>
+    <string-array name="spinner_comic_print_bookbind_values">
+        <item></item>
+        <item>@string/comic_print_bookbind_saddleStitching</item>
+        <item>@string/comic_print_bookbind_perfectBind</item>
+    </string-array>
+    <string-array name="spinner_comic_print_cover_setting_values">
+        <item></item>
+        <item>@string/comic_print_cover_setting_1</item>
+        <item>@string/comic_print_cover_setting_2</item>
+        <item>@string/comic_print_cover_setting_4</item>
+        <item>@string/comic_print_cover_setting_14</item>
+        <item>@string/comic_print_cover_setting_spread_1</item>
+        <item>@string/comic_print_cover_setting_spread_2</item>
+    </string-array>
+    <string-array name="spinner_comic_print_type">
+        <item>@string/page</item>
+        <item>@string/cover</item>
+    </string-array>
+    <string-array name="spinner_defaultRenditionFirstPageSpread_values">
+        <item>@string/spread_auto</item>
+        <item>@string/spread_center</item>
+        <item>@string/spread_left</item>
+        <item>@string/spread_right</item>
+    </string-array>
+    <string-array name="spinner_export_file_type">
+        <item>@string/png</item>
+        <item>@string/png_argb</item>
+        <item>@string/jpg</item>
+        <item>@string/mdp</item>
+        <item>@string/psd</item>
+    </string-array>
+    <string-array name="spinner_export_image_file_type">
+        <item>@string/png</item>
+        <item>@string/png_argb</item>
+        <item>@string/jpg</item>
+    </string-array>
+    <string-array name="spinner_layer_effect_values">
+        <item>@string/layer_effect_none</item>
+        <item>@string/layer_effect_water_edge</item>
+        <item>@string/layer_effect_water_edge_muddiness</item>
+    </string-array>
+    <string-array name="spinner_layer_halftone_type_values">
+        <item>@string/halftone_ami</item>
+        <item>@string/halftone_vertical</item>
+        <item>@string/halftone_horizontal</item>
+    </string-array>
+    <string-array name="spinner_page_color_values">
+        <item>@string/fullcolor</item>
+        <item>@string/grayscale</item>
+        <item>@string/black_and_white</item>
+    </string-array>
+    <string-array name="spinner_page_direction_values">
+        <item>@string/auto</item>
+        <item>@string/landscape</item>
+        <item>@string/portrait</item>
+    </string-array>
+    <string-array name="spinner_page_feed_direction_values">
+        <item>@string/rtl</item>
+        <item>@string/ltr</item>
+        <item>@string/ttb</item>
+    </string-array>
+    <string-array name="spinner_paper_size_values">
+        <item></item>
+        <item>@string/paper_size_a4</item>
+        <item>@string/paper_size_a5</item>
+        <item>@string/paper_size_a6</item>
+        <item>@string/paper_size_b5</item>
+        <item>@string/paper_size_b6</item>
+        <item>@string/paper_size_post_card</item>
+        <item>@string/paper_size_medibang_cover</item>
+        <item>@string/paper_size_medibang_mypage_header</item>
+        <item>@string/paper_size_line_stamp_1</item>
+        <item>@string/paper_size_line_stamp_2</item>
+        <item>@string/paper_size_line_stamp_3</item>
+        <item>@string/paper_size_twitter</item>
+        <item>@string/paper_size_twitter_header</item>
+        <item>@string/paper_size_twitter_icon</item>
+        <item>@string/canvas_size_storie_character</item>
+        <item>@string/canvas_size_storie_background</item>
+        <item>@string/canvas_size_storie_illustration</item>
+    </string-array>
+    <string-array name="spinner_renditionSpread_values">
+        <item>@string/auto</item>
+        <item>@string/page_spread_both</item>
+        <item>@string/page_spread_landscape</item>
+        <item>@string/page_spread_none</item>
+        <item>@string/page_spread_portrait</item>
+    </string-array>
+    <string-array name="spinner_rendition_page_spread">
+        <item>@string/auto_position</item>
+        <item>@string/center_position</item>
+        <item>@string/left_position</item>
+        <item>@string/right_position</item>
+    </string-array>
+    <string-array name="spinner_unit_type">
+        <item>px</item>
+        <item>cm</item>
+    </string-array>
+    <string-array name="text_exit_menu">
+        <item>@string/message_saved_finish</item>
+        <item>@string/message_move_without_saving</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="text_export_menu">
+        <item>@string/export_psd</item>
+        <item>@string/export_png</item>
+        <item>@string/export_png_argb</item>
+        <item>@string/export_jpg</item>
+    </string-array>
+    <string-array name="text_import_menu">
+        <item>@string/import_mdp</item>
+        <item>@string/import_png_jpg</item>
+    </string-array>
+</resources>

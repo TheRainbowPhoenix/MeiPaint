@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:state_pressed="true">
+                <layer-list>
+                    <item android:drawable="@color/button_pressed" />
+                </layer-list>
+            </item>
+            <item>
+                <layer-list>
+                    <item android:drawable="@color/background_image_button_default" />
+                </layer-list>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:state_pressed="true">
+                <layer-list>
+                    <item android:drawable="@color/background_medibang_blue_pressed" />
+                </layer-list>
+            </item>
+            <item>
+                <layer-list>
+                    <item android:drawable="@color/background_medibang_blue" />
+                </layer-list>
+            </item>
+        </layer-list>
+    </item>
+</selector>
